@@ -24,8 +24,8 @@ public class ServAnnotation extends HttpServlet {
 		
 		response.setContentType("text/html");
 		
-		String welcomeMessage = "Welcome " + (var1 != null ? var1 : "APEX1") + " <br> Welcome " + (var2 != null ? var2 : "APEX2") + " <br> Welcome " + (var3 != null ? var3 : "APEX3") ;
-        response.getWriter().append(welcomeMessage).close();
+		String welcomeMsg = "Welcome " + (var1 != null ? var1 : "APEX1") + " <br> Welcome " + (var2 != null ? var2 : "APEX2") + " <br> Welcome " + (var3 != null ? var3 : "APEX3") ;
+        response.getWriter().append(welcomeMsg).close();
 	}
 
 }
